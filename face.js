@@ -12,7 +12,7 @@ const client = new vision.ImageAnnotatorClient({
 /**
  * TODO(developer): Uncomment the following line before running the sample.
  */
-const fileName = 'http://salon-beaute-bordeaux.fr/wp-content/uploads/2013/10/remodelage-visage-face-up.jpg';
+const fileName = 'http://img.over-blog-kiwi.com/1/43/79/80/20150125/ob_54456e_dollarphotoclub-70119328.jpg';
 
 client
   .faceDetection(fileName)
